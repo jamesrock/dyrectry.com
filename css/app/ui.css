@@ -1,0 +1,42 @@
+[data-role="ads"] [data-role="ad"] {
+	float:left;
+	margin:1px;
+}
+
+[data-role="ad-wrap"] {
+	padding:1px;
+}
+
+[data-app-role="head"] {
+	position:fixed;
+	left:0;
+	right:0;
+	background-color:rgba(255,255,255,0.98);
+	box-shadow:0 0 5px 0 rgba(0, 0, 0, 0.5);
+	border-bottom:solid 1px #CCC;
+	z-index:1;
+}
+
+[data-app-head-role="head"] {
+	float:left;
+	padding:1px;
+}
+
+[data-app-head-role="body"] {
+	float:right;
+	margin:-1px;
+}
+
+[data-app-head-role="body"] a {
+	text-decoration:none;
+	display:block;
+	padding:0 20px;
+}
+
+[data-app-head-role="body"] a:hover {
+	text-decoration:underline;
+}
+
+[data-app-role="body"] {
+	padding-top:51px;
+}

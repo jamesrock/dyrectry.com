@@ -1,0 +1,143 @@
+html {
+	overflow-y:scroll;
+}
+
+body {
+	color:#555;
+	background-color:#EFEFEF;
+}
+
+[data-role="ads"] {
+	
+}
+
+[data-role="ad-wrap"] {
+	padding:1px;
+}
+
+[data-role="ad"] {
+	float:left;
+	margin:1px;
+	width:250px;
+	height:250px;
+	color:white;
+	background-color:rgb(25, 25, 25);
+	position:relative;
+}
+
+[data-ad-role="img"] {
+	display:block;
+	position:absolute;
+}
+
+[data-ad-role="info"] {
+	padding:15px 20px;
+	position:absolute;
+	bottom:0;
+	top:0;
+	left:0;
+	right:0;
+	line-height:1.3;
+	opacity:0;
+	background-color:rgba(25, 25, 25, 0.90);
+	transition:opacity 0.2s;
+}
+
+[data-role="ad"]:hover [data-ad-role="info"] {
+	opacity:1;
+}
+
+[data-ad-role="website"],
+[data-ad-role="phone"] {
+	margin-bottom:10px;
+}
+
+[data-ad-role="name"] {
+	font-weight:bold;
+}
+
+[data-role="clear"] {
+	clear:both;
+}
+
+[data-role="auto-complete"] {
+	position:absolute;
+	left:0;
+	right:0;
+	background-color:white;
+	border:solid 1px #CCC;
+	border-width:0 1px 1px;
+}
+
+[data-role="auto-complete"] select {
+	width:100%;
+	border:0;
+	display:block;
+}
+
+[data-role="auto-complete"][data-active="false"] {
+	display:none;
+}
+
+[data-auto-complete-role="item"] {
+	padding:5px 15px;
+	text-align:left;
+}
+
+[data-role="input"] {
+	display:inline-block;
+	position:relative;
+	margin:1px;
+}
+
+input[type="text"] {
+	padding:10px 15px;
+	width:350px;
+}
+
+button {
+	border:0;
+	background-color:tomato;
+	color:white;
+	padding:10px 20px;
+	border-radius:5px;
+	text-transform:uppercase;
+	outline:0;
+}
+
+[data-app-role="body"] {
+	padding-top:48px;
+}
+
+[data-app-role="head"] {
+	position:fixed;
+	left:0;
+	right:0;
+	background-color:rgba(255,255,255,0.8);
+	box-shadow:0 0 5px 0 rgba(0, 0, 0, 0.5);
+	z-index:1;
+	padding:1px;
+	font-size:18px;
+}
+
+[data-app-head-role="head"] {
+	float:left;
+}
+
+[data-app-head-role="body"] {
+	float:right;
+	margin:-1px;
+}
+
+[data-app-head-role="body"] a {
+	text-decoration:none;
+	color:tomato;
+	display:block;
+	line-height:48px;
+	padding:0 20px;
+}
+
+[data-app-head-role="body"] a:hover {
+	background-color:tomato;
+	color:white;
+}

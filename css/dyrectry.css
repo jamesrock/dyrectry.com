@@ -1,0 +1,66 @@
+html {
+	overflow-y:scroll;
+}
+
+body {
+	color:#555;
+}
+
+[data-role="input"] {
+	display:inline-block;
+	position:relative;
+}
+
+input[type="text"] {
+	padding:10px 12px;
+	width:350px;
+	box-shadow:1px 1px 0 0 rgba(0, 0, 0, 0.3) inset;
+	border:solid 1px #CCC;
+	border-radius:2px;
+}
+
+input[type="text"]:focus {
+	font-weight:bold;
+}
+
+label {
+	cursor:pointer;
+}
+
+option {
+	padding:5px 10px;
+}
+
+select {
+	padding:0 10px;
+	width:100%;
+	box-shadow:1px 1px 0 0 rgba(0, 0, 0, 0.3) inset;
+	border:solid 1px #CCC;
+	border-radius:2px;
+}
+
+[data-role="category"] {
+	display:inline-block;
+	background-color:#333;
+	color:#FFF;
+	padding:3px 10px;
+	border-radius:3px;
+	margin:2px;
+}
+
+[data-role="clear"] {
+	clear:both;
+}
+
+[data-role="form-field"] {
+	padding:5px 0;
+}
+
+[data-role="pane"] {
+	padding-bottom:20px;
+}
+
+[data-role="pane"][data-theme="02"] {
+	padding:10px 0;
+	//border-bottom:dotted 1px #CCC;
+}

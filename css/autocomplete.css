@@ -1,0 +1,26 @@
+[data-role="auto-complete"] {
+	position:absolute;
+	left:0;
+	right:0;
+	background-color:white;
+	border:solid 1px #CCC;
+	border-width:0 1px 1px;
+	z-index:1;
+}
+
+[data-role="auto-complete"] select {
+	width:100%;
+	border:0;
+	display:block;
+	padding:0;
+	box-shadow:none;
+}
+
+[data-role="auto-complete"][data-active="false"] {
+	display:none;
+}
+
+[data-auto-complete-role="item"] {
+	padding:5px 10px;
+	text-align:left;
+}

@@ -1,0 +1,53 @@
+[data-role="ad"] {
+	width:250px;
+	height:250px;
+	color:white;
+	background-color:rgb(25, 25, 25);
+	position:relative;
+}
+
+[data-ad-role="img"] {
+	display:block;
+	position:absolute;
+}
+
+[data-ad-role="info"] {
+	padding:12px 15px;
+	position:absolute;
+	bottom:0;
+	top:0;
+	left:0;
+	right:0;
+	line-height:1.2;
+	opacity:0;
+	background-color:rgba(25, 25, 25, 0.95);
+	transition:opacity 0.2s;
+}
+
+[data-ad-role="info"] a {
+	text-decoration:none;
+}
+
+[data-ad-role="info"] a:hover {
+	text-decoration:underline;
+}
+
+[data-role="ad"]:hover [data-ad-role="info"] {
+	opacity:1;
+}
+
+[data-ad-role="website"],
+[data-ad-role="email"],
+[data-ad-role="phone"] {
+	text-overflow:ellipsis;
+	overflow:hidden;
+}
+
+[data-ad-role="name-and-web"],
+[data-ad-role="contact"] {
+	margin-bottom:0.5em;
+}
+
+[data-ad-role="name"] {
+	font-weight:bold;
+}
